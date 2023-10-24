@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ciencias.ico" type="image/x-icon">
+
+    <title>STEM</title>
+
+</head>
+<body>
+    <header>
+        <h1>STEM </h1>
+        <nav>
+            <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preferencias.html">Preferencias</a> </li>
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí">
+            <label for="mail">Email </label>
+            <input type="mail" id="mail" name="mail" placeholder="Escribe tu mail aquí">
+        <br>
+            <label for="pais">País </label>
+            <select id="nombre" name="nombre">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Peru">Peru</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="Escribe aquí tu comentario"></textarea>
+            <label for="motivo" >Motivo de contacto.</label>
+            <input type="radio" id="motivo" name="motivo"> <i>Más información</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Recursos</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Comerciales</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Reclamos</i>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <p> Derechos reservados &copy;2023</p>
+    </footer>
+    
+</body>
+</html>
